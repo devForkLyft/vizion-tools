@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* product_multiple_barcodes
+# 	* vizion_product_multiple_barcodes
 #
 msgid ""
 msgstr ""
@@ -17,99 +17,99 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 3.1\n"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_product__barcode_ids
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_template__barcode_ids
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_product__barcode_ids
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_template__barcode_ids
 msgid "Additional Barcodes"
 msgstr "Dodatkowe Kody Kreskowe"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__name
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__name
 msgid "Barcode"
 msgstr "Kod Kreskowy"
 
-#. module: product_multiple_barcodes
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.view_multiply_barcode_wizard_form
+#. module: vizion_product_multiple_barcodes
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.view_multiply_barcode_wizard_form
 msgid "Cancel"
 msgstr "Anuluj"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__create_uid
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__create_uid
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__create_uid
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__create_uid
 msgid "Created by"
 msgstr "Utworzony przez"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__create_date
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__create_date
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__create_date
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__create_date
 msgid "Created on"
 msgstr "Utworzony w dniu"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__display_name
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__display_name
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__display_name
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__display_name
 msgid "Display Name"
 msgstr "Nazwa Wyświetlana"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__id
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__id
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__id
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__id
 msgid "ID"
 msgstr "ID"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard____last_update
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi____last_update
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard____last_update
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi____last_update
 msgid "Last Modified on"
 msgstr "Zmodyfikowany w dniu"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__write_uid
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__write_uid
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__write_uid
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__write_uid
 msgid "Last Updated by"
 msgstr "Zaktualizowano przez"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__write_date
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__write_date
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__write_date
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__write_date
 msgid "Last Updated on"
 msgstr "Zaktualizowany w dniu"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__name
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__name
 msgid "New Barcode"
 msgstr "Nowy Kod Kreskowy"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.constraint,message:product_multiple_barcodes.constraint_product_product_barcode_uniq
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.constraint,message:vizion_product_multiple_barcodes.constraint_product_product_barcode_uniq
 msgid "No error"
 msgstr "Brak błędu"
 
-#. module: product_multiple_barcodes
-#: model:ir.model,name:product_multiple_barcodes.model_product_product
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_product_barcode_multi__product_id
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.product_barcode_multi_view_search
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.product_variant_barcode_multi_view_search
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model,name:vizion_product_multiple_barcodes.model_product_product
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_product_barcode_multi__product_id
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.product_barcode_multi_view_search
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.product_variant_barcode_multi_view_search
 msgid "Product"
 msgstr "Produkt"
 
-#. module: product_multiple_barcodes
-#: model:ir.model,name:product_multiple_barcodes.model_product_barcode_multi
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model,name:vizion_product_multiple_barcodes.model_product_barcode_multi
 msgid "Product Barcode Multi"
 msgstr ""
 
-#. module: product_multiple_barcodes
-#: model:ir.model,name:product_multiple_barcodes.model_product_template
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model,name:vizion_product_multiple_barcodes.model_product_template
 msgid "Product Template"
 msgstr "Szablon produktu"
 
-#. module: product_multiple_barcodes
-#: model:ir.model.fields,field_description:product_multiple_barcodes.field_multiply_barcode_wizard__remember_previous_barcode
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model.fields,field_description:vizion_product_multiple_barcodes.field_multiply_barcode_wizard__remember_previous_barcode
 msgid "Remember previous barcode in \"Additional Barcodes\" field"
 msgstr "Zapamiętaj poprzedni kod kreskowy w polu \"Dodatkowe Kody Kreskowe\""
 
-#. module: product_multiple_barcodes
-#: code:addons/product_multiple_barcodes/models/product_product.py:0
+#. module: vizion_product_multiple_barcodes
+#: code:addons/vizion_product_multiple_barcodes/models/product_product.py:0
 #, python-format
 msgid ""
 "The following barcode(s): {0} was found in other active products.\n"
@@ -118,26 +118,26 @@ msgstr ""
 "Następujące kody kreskowe: {0} zostały znalezione w innych aktywnych produktach.\n"
 "Należy pamiętać, że kody kreskowe produktów nie powinny powtarzać się zarówno w polu \"Kod Kreskowy\", jak i w polu \"Dodatkowe Kody Kreskowe\"."
 
-#. module: product_multiple_barcodes
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.product_product_view_form_multiply_barcode
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.product_template_view_form_multiply_barcode
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.view_multiply_barcode_wizard_form
+#. module: vizion_product_multiple_barcodes
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.product_product_view_form_multiply_barcode
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.product_template_view_form_multiply_barcode
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.view_multiply_barcode_wizard_form
 msgid "Update Barcode"
 msgstr "Aktualizuj Kod Kreskowy"
 
-#. module: product_multiple_barcodes
-#: model:ir.actions.act_window,name:product_multiple_barcodes.action_multiply_barcode_wizard
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.view_multiply_barcode_wizard_form
+#. module: vizion_product_multiple_barcodes
+#: model:ir.actions.act_window,name:vizion_product_multiple_barcodes.action_multiply_barcode_wizard
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.view_multiply_barcode_wizard_form
 msgid "Update Product Barcode"
 msgstr "Aktualizuj Kod Kreskowy Produktu"
 
-#. module: product_multiple_barcodes
-#: model:ir.model,name:product_multiple_barcodes.model_multiply_barcode_wizard
+#. module: vizion_product_multiple_barcodes
+#: model:ir.model,name:vizion_product_multiple_barcodes.model_multiply_barcode_wizard
 msgid "Update Product Multiply Barcode Wizard"
 msgstr "Kreator aktualizacji wielu kodów kreskowych produktów"
 
-#. module: product_multiple_barcodes
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.view_multiply_barcode_wizard_form
+#. module: vizion_product_multiple_barcodes
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.view_multiply_barcode_wizard_form
 msgid ""
 "Use this popup in case you would like to update barcode of current product. It also allows you to record automatically previous barcode into \"Additional "
 "Barcodes\" field,\n"
@@ -148,7 +148,7 @@ msgstr ""
 "                        dzięki czemu nadal będzie można go wyszukiwać, a także w tym przypadku będziesz miał 100% pewności, że ten kod kreskowy nie będzie "
 "używany przez inne produkty"
 
-#. module: product_multiple_barcodes
-#: model_terms:ir.ui.view,arch_db:product_multiple_barcodes.view_multiply_barcode_wizard_form
+#. module: vizion_product_multiple_barcodes
+#: model_terms:ir.ui.view,arch_db:vizion_product_multiple_barcodes.view_multiply_barcode_wizard_form
 msgid "or"
 msgstr "lub"
