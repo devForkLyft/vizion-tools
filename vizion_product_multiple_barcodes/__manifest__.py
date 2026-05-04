@@ -1,5 +1,5 @@
 {
-    "name": "Product Multiple Barcodes",
+    "name": "Multiple Product Barcodes Management & Barcode Scanning for Odoo Inventory",
     "version": "18.0.1.0.0",
     "author": "Vizion Tools",
     "website": "https://viziontools.com/",
