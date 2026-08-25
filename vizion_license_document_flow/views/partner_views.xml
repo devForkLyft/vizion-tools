@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_partner_extension_form" model="ir.ui.view">
+            <field name="name">res.partner.view.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='fax_number']" position="after">
+                    <label for="retail_license" string="Retail License"/>
+                    <div id="retail_license" class="o_row" name="retail_license">
+                         <field name="retail_license" class="oe_inline"/>
+                          <field name="retail_license_file" class="oe_inline"/>
+                   </div>
+                    <field name="expiry_date"/>
+                     <label for="wholesale_licence1" string="Wholesale License 1"/>
+                    <div id="wholesale_licence1" class="o_row" name="wholesale_licence1">
+                         <field name="wholesale_licence1" class="oe_inline"/>
+                          <field name="wholesale_licence_file1" class="oe_inline"/>
+                   </div>
+                    <label for="wholesale_licence2" string="Wholesale License 2"/>
+                    <div id="wholesale_licence2" class="o_row" name="wholesale_licence2">
+                         <field name="wholesale_licence2" class="oe_inline"/>
+                          <field name="wholesale_licence_file2" class="oe_inline"/>
+                   </div>
+                    <label for="wholesale_licence3" string="Wholesale License 3"/>
+                    <div id="wholesale_licence3" class="o_row" name="wholesale_licence3">
+                         <field name="wholesale_licence3" class="oe_inline"/>
+                          <field name="wholesale_licence_file3" class="oe_inline"/>
+                   </div>
+                   
+                    <field name="customer_unique_id"/>
+                </xpath>
+            </field>
+        </record>
+      </data>
+</odoo>
