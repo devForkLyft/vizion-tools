@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'License & Document Flow',
-    'version': '18.0.1.1.0',
+    'version': '18.0.1.2.0',
     'category': 'Contacts',
     'summary': 'Store retail, wholesale & tax ID licenses with files, '
                'expiry dates and a unique customer ID on every contact, '
