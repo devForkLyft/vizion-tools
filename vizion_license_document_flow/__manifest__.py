@@ -28,7 +28,7 @@ are available inside Point of Sale.
     'author': 'Vizion Tools',
     'website': 'https://viziontools.com',
     'support': 'support@viziontools.com',
-    'license': 'LGPL-3',
+    'license': 'AGPL-3',
     'depends': [
         'base', 'vizion_msa_report', 'point_of_sale',
     ],
