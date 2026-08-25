@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'License & Document Flow',
-    'version': '18.0.1.2.0',
+    'version': '18.0.1.3.0',
     'category': 'Contacts',
     'summary': 'Store retail, wholesale & tax ID licenses with files, '
                'expiry dates and a unique customer ID on every contact, '
@@ -30,7 +30,7 @@ are available inside Point of Sale.
     'support': 'support@viziontools.com',
     'license': 'AGPL-3',
     'depends': [
-        'base', 'vizion_msa_report', 'point_of_sale',
+        'base', 'point_of_sale',
     ],
     'data': [
         'views/partner_views.xml',
