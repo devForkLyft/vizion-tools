@@ -1,6 +1,6 @@
 {
     "name": "Multiple Product Barcodes Management & Barcode Scanning for Odoo Inventory",
-    "version": "18.0.1.5.0",
+    "version": "18.0.1.6.0",
     "author": "Vizion Tools",
     "website": "https://viziontools.com/",
     "support": "support@viziontools.com",
@@ -14,7 +14,7 @@
         "static/description/main_screenshot.png",
         "static/description/screenshot_1.png",
     ],
-    "summary": "Add unlimited EAN-13, UPC-A, Code 128 & QR barcodes per product or variant - scan, search and import them across Inventory, POS, Purchase & Sales.",
+    "summary": "Store unlimited additional barcodes (EAN-13, UPC-A, Code 128, QR) on any Odoo product or variant, and find products by any barcode or internal reference in Sales, Purchase and Inventory.",
     "depends": [
         "product",
         "sale",
